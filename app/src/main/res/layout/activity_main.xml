@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_open_detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Open detail activity"/>
+
+    <Button
+        android:id="@+id/btn_open_google"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Open google" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <include
+                android:id = "@+id/item_news1"
+                layout="@layout/item_news"
+                />
+
+            <include
+                android:id = "@+id/item_news2"
+                layout="@layout/item_news" />
+
+            <include
+                android:id = "@+id/item_news3"
+                layout="@layout/item_news" />
+
+            <include
+                android:id = "@+id/item_news4"
+                layout="@layout/item_news" />
+
+            <include
+                android:id = "@+id/item_news5"
+                layout="@layout/item_news" />
+
+            <include
+                android:id = "@+id/item_news6"
+                layout="@layout/item_news" />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
